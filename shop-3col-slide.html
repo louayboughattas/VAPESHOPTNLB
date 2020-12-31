@@ -2,12 +2,12 @@
 <!--[if IE 8 ]><html class="ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!--><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"><!--<![endif]-->
 
-<!-- Mirrored from themesflat.com/html/modaz/shop-3col.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 30 Dec 2020 17:10:12 GMT -->
+<!-- Mirrored from themesflat.com/html/modaz/shop-3col-slide.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 30 Dec 2020 17:10:23 GMT -->
 <head>
     <!-- Basic Page Needs -->
     <meta charset="utf-8">
     <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
-    <title>LB VAPE SHOP TN</title>
+    <title>Modaz HTML Template</title>
 
     <meta name="author" content="themesflat.com">
 
@@ -29,7 +29,7 @@
 
 
     <!-- Favicon and touch icons  -->
-    <link href="images/789 (2).jpg" rel="shortcut icon">
+    <link href="icon/favicon.png" rel="shortcut icon">
 
     <!--[if lt IE 9]>
         <script src="javascript/html5shiv.js"></script>
@@ -49,8 +49,8 @@
             <header id="header" class="header clearfix">
                 <div class="container-fluid clearfix container-width-93" id="site-header-inner">
                     <div id="logo" class="logo float-left">
-                        <a href=" https://louayboughattas.github.io/VAPESHOPTN/  " title="logo">
-                            <img src="images/789 (2).jpg" alt="image" width="107" height="24" data-retina="images/logo@2x.png" data-width="107" data-height="24">
+                        <a href="index.html" title="logo">
+                            <img src="images/logo.png" alt="image" width="107" height="24" data-retina="images/logo@2x.png" data-width="107" data-height="24">
                         </a>
                     </div><!-- /.logo -->
                     <div class="mobile-button"><span></span></div>
@@ -104,10 +104,10 @@
                                         <li>
                                             <a href="shop-3col.html">Shop Layouts</a>
                                             <ul class="submenu">
-                                                <li class="active" ><a href="shop-3col.html">Three Columns</a></li>
+                                                <li><a href="shop-3col.html">Three Columns</a></li>
                                                 <li><a href="shop-4col.html">Four Columns</a></li>
                                                 <li><a href="shop-5col.html">Five Columns</a></li>
-                                                <li><a href="shop-3col-slide.html">Slidebar Three Columns</a></li>
+                                                <li class="active"><a href="shop-3col-slide.html">Slidebar Three Columns</a></li>
                                             </ul>
                                         </li>
                                         <li>
@@ -119,7 +119,7 @@
                                                 <li><a href="shop-detail-fix.html">Details Fix</a></li>
                                                 <li><a href="shop-detail-zoom.html">Details Zoom</a></li>
                                                 <li><a href="shop-detail-group.html">Details Grouped</a></li>
-                                                <li><a href="shop-detail-video.html">Details Video</a></li>                                                
+                                                <li><a href="shop-detail-video.html">Details Video</a></li>                                               
                                             </ul>
                                         </li>
                                     </ul>
@@ -163,13 +163,13 @@
     			<div class="row">
     				<div class="col-md-12">
     					<div class="page-title-heading">
-    						<h1 class="title">Shop</h1>
+    						<h1 class="title">Slidebar Shop</h1>
     					</div><!-- /.page-title-heading -->
     					<div class="breadcrumbs">
     						<ul>
     							<li><a href="index.html">Home</a></li>
     							<li><a href="shop-3col.html">Shop</a></li>
-                                <li><a href="shop-3col.html">product</a></li>
+                                <li><a href="shop-3col-slide.html">Slidebarshop</a></li>
     						</ul>
     					</div><!-- /.breadcrumbs -->
     				</div><!-- /.col-md-12 -->
@@ -177,23 +177,19 @@
     		</div><!-- /.container -->
     	</div><!-- /.page-title -->
 
-    	<section class="flat-row main-shop">
+    	<section class="flat-row main-shop shop-slidebar">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12">
-                        <div class="filter-shop clearfix">
-                            <p class="showing-product">
-                                Showing 1–12 of 10 Products
-                            </p>
-                            <ul class="flat-filter-search">
-                                <li>
-                                    <a href="#" class="show-filter">Filters</a>
-                                </li>
-                                <li class="search-product"><a href="#">Search</a></li>
-                            </ul>
-                        </div><!-- /.filte-shop -->
-                        <div class="box-filter slidebar-shop">
-                            <div class="btn-close"><a href="#"><i class="fa fa-times"></i></a></div>
+                    <div class="col-md-3">
+                        <div class="sidebar slidebar-shop">
+                            <div class="widget widget-search">
+                                <form role="search" method="get" class="search-form" action="#">
+                                    <label>                                    
+                                        <input type="search" class="search-field" placeholder="Search …" value="" name="s">
+                                    </label>
+                                    <input type="submit" class="search-submit" value="Search">
+                                </form>                            
+                            </div><!-- /.widget-search -->
                             <div class="widget widget-sort-by">
                                 <h5 class="widget-title">
                                     Sort By
@@ -207,41 +203,70 @@
                                     <li><a href="#">Price: high to low</a></li>
                                 </ul>
                             </div><!-- /.widget-sort-by -->
-                            <div class="widget widget-price">
-                                <h5 class="widget-title">Price</h5>
-                                <ul>
-                                    <li><a href="#" class="active">$0.00 - $50.00</a></li>
-                                    <li><a href="#">$50.00 - $100.00</a></li>
-                                    <li><a href="#">$100.00 - $150.00</a></li>
-                                    <li><a href="#">$150.00 - $200.00</a></li>
-                                    <li><a href="#">$200.00 - 250.00</a></li>
-                                    <li><a href="#">250.00+</a></li>
-                                </ul>
-                            </div><!-- /.widget -->
                             <div class="widget widget-color">
                                 <h5 class="widget-title">
                                    Colors
                                 </h5>
                                 <ul class="flat-color-list icon-left">
-                                    <li><a href="#" class="yellow"></a><span>Yellow</span></li>
-                                    <li><a href="#" class="pink"> </a><span>White</span></li>
-                                    <li><a href="#" class="red active"></a><span>Red</span> </li>
-                                    <li><a href="#" class="black"></a><span>Black</span></li>
-                                    <li><a href="#" class="blue"></a><span>Green</span></li>
-                                    <li><a href="#" class="khaki"></a><span>Orange</span></li>
+                                    <li><a href="#" class="yellow"></a><span>Yellow</span> <span class="pull-right">25</span></li>
+                                    <li><a href="#" class="pink"> </a><span>White</span> <span class="pull-right">16</span></li>
+                                    <li><a href="#" class="red active"></a><span>Red</span> <span class="pull-right">28</span></li>
+                                    <li><a href="#" class="black"></a><span>Black</span> <span class="pull-right">12</span></li>
+                                    <li><a href="#" class="blue"></a><span>Green</span> <span class="pull-right">0</span></li>
                                 </ul>
                             </div><!-- /.widget-color -->
                             <div class="widget widget-size">
-                                <h5 class="widget-title">Size</h5>
+                                <h5 class="widget-title">
+                                    Size
+                                </h5>
                                 <ul>
-                                    <li><a href="#">L</a></li>
-                                    <li><a href="#">M</a></li>
-                                    <li><a href="#">S</a></li>
-                                    <li><a href="#">XL</a></li>
-                                    <li><a href="#">XXL</a></li>
-                                    <li><a href="#">Over Size</a></li>
+                                    <li class="checkbox">
+                                        <input type="checkbox" name="checkbok1" id="checkbox1">
+                                        <label for="checkbox1">
+                                            <a href="#">L</a>
+                                        </label>
+                                    </li>
+                                    <li class="checkbox">
+                                        <input type="checkbox" name="checkbok2" id="checkbox2">
+                                        <label for="checkbox2">
+                                            <a href="#">M</a>
+                                        </label>
+                                    </li>
+                                    <li class="checkbox">
+                                        <input type="checkbox" name="checkbok3" id="checkbox3">
+                                        <label for="checkbox3">
+                                            <a href="#">S</a>
+                                        </label>
+                                    </li>
+                                    <li class="checkbox">
+                                        <input type="checkbox" name="checkbok4" id="checkbox4">
+                                        <label for="checkbox4">
+                                            <a href="#">X</a>
+                                        </label>
+                                    </li>
+                                    <li class="checkbox">
+                                        <input type="checkbox" name="checkbok5" id="checkbox5">
+                                        <label for="checkbox5">
+                                            <a href="#">XL</a>
+                                        </label>
+                                    </li>
+                                    <li class="checkbox">
+                                        <input type="checkbox" name="checkbok6" id="checkbox6">
+                                        <label for="checkbox6">
+                                            <a href="#">XXL</a>
+                                        </label>
+                                    </li>
                                 </ul>
-                            </div><!-- /.widget -->
+                            </div><!-- /.widget-size -->
+                            <div class="widget widget-price">
+                                <h5 class="widget-title">Filter by price</h5>
+                                <div class="price-filter">
+                                    <div id="slide-range"></div>
+                                    <p class="amount">
+                                      Price: <input type="text" id="amount" disabled="">
+                                    </p>
+                                </div>
+                            </div>
                             <div class="widget widget_tag">
                                 <h5 class="widget-title">
                                     Tags
@@ -257,58 +282,28 @@
                                     <a href="#">Accesories</a> 
                                 </div>
                             </div><!-- /.widget -->
-                        </div><!-- /.box-filter -->
-                        <div class="shop-search clearfix">            
-                            <form role="search" method="get" class="search-form" action="#">
-                                <label>                                    
-                                    <input type="search" class="search-field" placeholder="Searching …" value="" name="s">
-                                </label>
-                            </form>       
-                        </div><!-- /.top-serach -->
-                        <div class="product-content product-threecolumn clearfix">
-                            <ul class="product">
+                        </div><!-- /.sidebar -->
+                    </div><!-- /.col-md-3 -->
+                    <div class="col-md-9">
+                        <div class="filter-shop clearfix">
+                            <p class="showing-product float-right">
+                                Showing 1–12 of 56 Products
+                            </p>
+                        </div><!-- /.filte-shop -->
+                        <div class="product-content product-threecolumn product-slidebar clearfix">
+                            <ul class="product style2 sd1">
                                 <li class="product-item">
                                     <div class="product-thumb clearfix">
                                         <a href="#">
-                                            <img src="images/shop/sh-3/1 (2).png" alt="image">
-                                        </a>
-                                    </div>
-                                    <div class="product-info clearfix">
-                                        <span class="product-title"> SMOK VAPE</span>
-                                        <div class="price">
-                                            <ins>
-                                                <span class="amount">180D</span>
-                                            </ins>
-                                        </div>
-                                        <ul class="flat-color-list">
-                                            <li>
-                                                <a href="#" class="red"></a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="blue"></a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="black"></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="add-to-cart text-center">
-                                        <a href="#">ADD TO CART</a>
-                                    </div>
-                                    <a href="#" class="like"><i class="fa fa-heart-o"></i></a>
-                                </li>
-                                <li class="product-item">
-                                    <div class="product-thumb clearfix">
-                                        <a href="#">
-                                            <img src="images/shop/sh-3/2.png" alt="image">
+                                            <img src="images/shop/sh-4/2.jpg" alt="image">
                                         </a>
                                         <span class="new">New</span>
                                     </div>
                                     <div class="product-info clearfix">
-                                        <span class="product-title">SMOK VAPE</span>
+                                        <span class="product-title">Cotton White Underweaer Block Out Edition</span>
                                         <div class="price">
                                             <ins>
-                                                <span class="amount">180D</span>
+                                                <span class="amount">$10.00</span>
                                             </ins>
                                         </div>
                                     </div>
@@ -320,7 +315,7 @@
                                 <li class="product-item">
                                     <div class="product-thumb clearfix">
                                         <a href="#" class="product-thumb">
-                                            <img src="images/shop/sh-3/4.png" alt="image">
+                                            <img src="images/shop/sh-4/3.jpg" alt="image">
                                         </a>
                                     </div>
                                     <div class="product-info clearfix">
@@ -338,8 +333,8 @@
                                 </li>
                                 <li class="product-item">
                                     <div class="product-thumb clearfix">
-                                        <a href="#" class="product-thumb">
-                                            <img src="images/shop/sh-3/5.png" alt="image">
+                                        <a href="#">
+                                            <img src="images/shop/sh-4/2.jpg" alt="image">
                                         </a>
                                         <span class="new">New</span>
                                     </div>
@@ -347,7 +342,7 @@
                                         <span class="product-title">Cotton White Underweaer Block Out Edition</span>
                                         <div class="price">
                                             <ins>
-                                                <span class="amount">$139.00</span>
+                                                <span class="amount">$10.00</span>
                                             </ins>
                                         </div>
                                     </div>
@@ -359,7 +354,7 @@
                                 <li class="product-item">
                                     <div class="product-thumb clearfix">
                                         <a href="#" class="product-thumb">
-                                            <img src="images/shop/sh-3/6.png" alt="image">
+                                            <img src="images/shop/sh-4/6.jpg" alt="image">
                                         </a>
                                         <span class="new sale">Sale</span>
                                     </div>
@@ -370,7 +365,7 @@
                                                 <span class="regular">$150.00</span>
                                             </del>
                                             <ins>
-                                                <span class="amount">$139.00</span>
+                                                <span class="amount">$120.00</span>
                                             </ins>
                                         </div>
                                         <ul class="flat-color-list">
@@ -393,7 +388,7 @@
                                 <li class="product-item">
                                     <div class="product-thumb clearfix">
                                         <a href="#" class="product-thumb">
-                                            <img src="images/shop/sh-3/7.png" alt="image">
+                                            <img src="images/shop/sh-4/7.jpg" alt="image">
                                         </a>
                                     </div>
                                     <div class="product-info clearfix">
@@ -412,27 +407,7 @@
                                 <li class="product-item">
                                     <div class="product-thumb clearfix">
                                         <a href="#" class="product-thumb">
-                                            <img src="images/shop/sh-3/8.png" alt="image">
-                                        </a>
-                                        <span class="new">New</span>
-                                    </div>
-                                    <div class="product-info clearfix">
-                                        <span class="product-title">Cotton White Underweaer Block Out Edition</span>
-                                        <div class="price">
-                                            <ins>
-                                                <span class="amount">$79.00</span>
-                                            </ins>
-                                        </div>
-                                    </div>
-                                    <div class="add-to-cart text-center">
-                                        <a href="#">ADD TO CART</a>
-                                    </div>
-                                    <a href="#" class="like"><i class="fa fa-heart-o"></i></a>
-                                </li>
-                                <li class="product-item">
-                                    <div class="product-thumb clearfix">
-                                        <a href="#" class="product-thumb">
-                                            <img src="images/shop/sh-3/9.png" alt="image">
+                                            <img src="images/shop/sh-4/6.jpg" alt="image">
                                         </a>
                                         <span class="new sale">Sale</span>
                                     </div>
@@ -443,7 +418,7 @@
                                                 <span class="regular">$150.00</span>
                                             </del>
                                             <ins>
-                                                <span class="amount">$139.00</span>
+                                                <span class="amount">$120.00</span>
                                             </ins>
                                         </div>
                                         <ul class="flat-color-list">
@@ -466,7 +441,41 @@
                                 <li class="product-item">
                                     <div class="product-thumb clearfix">
                                         <a href="#" class="product-thumb">
-                                            <img src="images/shop/sh-3/12.png" alt="image">
+                                            <img src="images/shop/sh-4/10.jpg" alt="image">
+                                        </a>
+                                        <span class="new sale">Sale</span>
+                                    </div>
+                                    <div class="product-info clearfix">
+                                        <span class="product-title">Cotton White Underweaer Block Out Edition</span>
+                                        <div class="price">
+                                            <del>
+                                                <span class="regular">$150.00</span>
+                                            </del>
+                                            <ins>
+                                                <span class="amount">$120.00</span>
+                                            </ins>
+                                        </div>
+                                        <ul class="flat-color-list">
+                                            <li>
+                                                <a href="#" class="red"></a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="blue"></a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="black"></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="add-to-cart text-center">
+                                        <a href="#">ADD TO CART</a>
+                                    </div>
+                                    <a href="#" class="like"><i class="fa fa-heart-o"></i></a>
+                                </li>
+                                <li class="product-item">
+                                    <div class="product-thumb clearfix">
+                                        <a href="#" class="product-thumb">
+                                            <img src="images/shop/sh-4/11.jpg" alt="image">
                                         </a>
                                     </div>
                                     <div class="product-info clearfix">
@@ -476,6 +485,40 @@
                                                 <span class="amount">$110.00</span>
                                             </ins>
                                         </div>
+                                    </div>
+                                    <div class="add-to-cart text-center">
+                                        <a href="#">ADD TO CART</a>
+                                    </div>
+                                    <a href="#" class="like"><i class="fa fa-heart-o"></i></a>
+                                </li>
+                                <li class="product-item">
+                                    <div class="product-thumb clearfix">
+                                        <a href="#" class="product-thumb">
+                                            <img src="images/shop/sh-4/10.jpg" alt="image">
+                                        </a>
+                                        <span class="new sale">Sale</span>
+                                    </div>
+                                    <div class="product-info clearfix">
+                                        <span class="product-title">Cotton White Underweaer Block Out Edition</span>
+                                        <div class="price">
+                                            <del>
+                                                <span class="regular">$150.00</span>
+                                            </del>
+                                            <ins>
+                                                <span class="amount">$120.00</span>
+                                            </ins>
+                                        </div>
+                                        <ul class="flat-color-list">
+                                            <li>
+                                                <a href="#" class="red"></a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="blue"></a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="black"></a>
+                                            </li>
+                                        </ul>
                                     </div>
                                     <div class="add-to-cart text-center">
                                         <a href="#">ADD TO CART</a>
@@ -484,18 +527,18 @@
                                 </li>
                             </ul><!-- /.product -->
                         </div><!-- /.product-content -->
-                        <div class="product-pagination text-center margin-top-11 clearfix">
+                        <div class="product-pagination text-center clearfix">
                             <ul class="flat-pagination">
                                 <li class="prev">
                                     <a href="#"><i class="fa fa-angle-left"></i></a>
                                 </li>
-                                <li><a href="404.html">1  </a></li>
-                                <li class="active"><a href="shop-3col.html" title="">2</a></li>
-                                <li><a href="404.html">3</a></li>
+                                <li><a href="#">1</a></li>
+                                <li class="active"><a href="#" title="">2</a></li>
+                                <li><a href="#">3</a></li>
                                 <li><a href="#"><i class="fa fa-angle-right"></i></a></li>
                             </ul><!-- /.flat-pagination -->
                         </div>
-                    </div><!-- /.col-md-12 -->
+                    </div><!-- /.col-md-9 -->
                 </div><!-- /.row -->
             </div><!-- /.container -->
         </section><!-- /.flat-row -->
@@ -587,7 +630,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<p class="copyright text-center">Copyright @2018 <a href="#">VAPE SHOP TN</a></p>
+						<p class="copyright text-center">Copyright @2018 <a href="#">Modaz</a></p>
 					</div>
 				</div>
 			</div>
@@ -600,7 +643,7 @@
 
     </div>
 
-	<!-- Javascript -->
+    <!-- Javascript -->
     <script src="javascript/jquery.min.js"></script>
     <script src="javascript/tether.min.js"></script>
     <script src="javascript/bootstrap.min.js"></script> 
@@ -639,5 +682,5 @@
     <script src="rev-slider/js/extensions/revolution.extension.video.min.js"></script>
 </body> 
 
-<!-- Mirrored from themesflat.com/html/modaz/shop-3col.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 30 Dec 2020 17:10:19 GMT -->
+<!-- Mirrored from themesflat.com/html/modaz/shop-3col-slide.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 30 Dec 2020 17:10:23 GMT -->
 </html>                               
